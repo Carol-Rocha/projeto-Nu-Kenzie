@@ -1,0 +1,49 @@
+.home_screen {
+  background-color: var(--color-gray-4);
+
+ 
+  padding: 2rem 0.5rem 0rem 0.5rem;
+
+  gap: 1rem;
+}
+
+.home_screen,
+.home_screen > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_screen > div > div {
+  padding-top: 1rem;
+  gap: 2rem;
+}
+
+.home_screen > div > div > h1 {
+  color: var(--color-white);
+
+  font-weight: var(--font-weight-800);
+  font-size: var(--font-size-38);
+
+  line-height: 3rem;
+}
+
+.home_screen > div > div > span {
+  color: var(--color-white);
+
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+}
+
+.home_screen > div > div > button {
+  color: var(--color-white);
+
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-500);
+
+  background-color: var(--color-primary-1);
+
+  padding: 0.8rem 1rem;
+
+  border-radius: var(--border-radius-8);
+  border: none;
+}

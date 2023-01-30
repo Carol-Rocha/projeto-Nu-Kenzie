@@ -1,0 +1,14 @@
+@import './reset.css';
+@import './globalStyles.css';
+@import './header.css';
+@import './home.css';
+@import './form.css';
+
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.transactions_container{
+    padding-top: 100px;
+}
